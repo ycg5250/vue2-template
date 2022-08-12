@@ -2,6 +2,8 @@
 
 ## 已配置 vue-i18n 预渲染插件 移动端适配
 
+## Nodejs version 14.17.1
+
 ## Project setup
 
 ```

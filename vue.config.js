@@ -6,6 +6,7 @@ module.exports = {
   // publicPath: '/5Degrees',
   devServer: {
     open: true,
+    post: 12306
   },
   /*  configureWebpack: (config) => {
     if (process.env.NODE_ENV !== 'production') return
