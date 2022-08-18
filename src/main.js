@@ -11,15 +11,19 @@ let mode = window.localStorage.getItem('mode')
 if (mode) {
   if (mode === 'dark') {
     setMode(true)
+    
   } else {
     setMode(false)
+    store.commit('setDark', false)
   }
 } else {
   // tp.isDarkMode().then((res) => {
   //   if (res.result && res.data) {
   //     setMode(true)
+  //     store.commit('setDark', true)
   //   } else {
   //     setMode(false)
+  //     store.commit('setDark', false)
   //   }
   // })
 }
@@ -31,9 +35,11 @@ if (mode) {
 //   if (isDarkTheme.matches) {
 //     // 是深色 主题设置为深色。
 //     document.documentElement.setAttribute('theme', 'dark')
+//     store.commit('setDark', true)
 //   } else {
 //     // 不是深色 主题设置为浅色。
 //     document.documentElement.removeAttribute('theme')
+//     store.commit('setDark', false)
 //   }
 // }
 

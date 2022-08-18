@@ -7,10 +7,10 @@ export function setMode(mode) {
   }
 }
 // 获取当前模式
-export function getMode() {
-  if (document.documentElement.hasAttribute('theme')) {
-    return false
-  } else {
-    return true
-  }
-}
+// export function getMode() {
+//   if (document.documentElement.hasAttribute('theme')) {
+//     return false
+//   } else {
+//     return true
+//   }
+// }
