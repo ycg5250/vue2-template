@@ -1,57 +1,103 @@
+
+// 颜色值规范--来自系统设计规则
 // light
 :root {
-  --bg-color-1: rgba(240, 246, 255, 0);
-  --bg-color-2: #e0ecff;
-  --box-bg-1: #f6f6f6;
-  --box-bg-2: #fff;
+  // Default
+  // --bg-color-1: rgba(240, 246, 255, 0);
+  --blue-1: #2980FE; // 品牌色/按钮主色等
+  --blue-2: #98C1FE; // 按钮不可点击状态
 
-  --text-gray-1: #3A3B3D;
-  --text-gray-3: #9EA0A5;
-  --text-blue-1: #2980FE;
+  --green-1: #16A57A;
+  --green-2: #50C79F;
 
-  --line-bg-2: #E6E8EA;
+  --red-1: #EB6055;
+  --red-2: #FF7F75;
 
-  --search-button-bg: #2980FE;
+  --orange-1: #FF7114;
 
-  --success-bg: #e6fff7;
-  --success-color: #03C288;
-  --failure-bg: #FFF1F2;
-  --failure-color: #EE5D66;
-  --pending-bg: #EEF5FF;
-  --pending-color: #2980FE;
+  --yellow-1: #EEAE14;
 
-  --border-bg: #E6E8EA;
-  --border-bottom-bg: #E6E8EA;
+  --pink-1: #E8439A;
 
-  --toast-bg: #000F34;
-  --toast-color: #fff;
+  // Text Color
+  --gray-1: #3A3B3D; // 标题/文本主色值
+  --gray-2: #6F7174;
+  --gray-3: #9EA0A5; // 副文本色值
+  --gray-4: #C0C3C6;
+  --gray-5: #D5D8DB;
+  --gray-6: #E6E8EA;
+  --gray-7: #E8EAEC;
+  --gray-8: #FFFFFF;
+  --gray-9: #C6C9CC; // 浮层提示文字颜色值
+
+  // Background
+  --bg-1: #F6F6F6; // 底色/负一级
+  --bg-2: #FFFFFF; // 常规Background
+  --bg-3: #FFFFFF; // 浮层/正一级
+  --bg-4: #F5F6F7; // 搜索框
+  --bg-5: #FCFDFF; // 弹窗顶部颜色值
+  --bg-6: #FFFFFF; // 切换tab底色值
+  --bg-7: #707173; // 浮层提示颜色
+  --bg-8: #FAFBFC; // 卡片底色_浅色
+
+  --blue-bg-1: #EBF4FF; // 淡蓝色底
+
+  --green-bg-1: #EBFAF1; // 淡蓝色底
+
+  --red-bg-1: #FFECEC; // 淡红色底
+
+  --orange-bg-1: #FEF5EE; // 淡红色底
+
+  // Separator Color
+  --separator-1: #E6E8EA; // 分割线
+  --separator-2: #F1F3F5; // 分割线_浅
 }
 
 // dark
 :root[theme='dark'] {
-  --bg-color-1: #0D0E0F;
-  --bg-color-2: #0D0E0F;
-  --box-bg-1: #0D0E0F;
-  --box-bg-2: #18191C;
+  // --bg-color-1: #0D0E0F;
+  --blue-1: #236FDB;
+  --blue-2: #83A7DB;
 
-  --text-gray-1: #D7DAE0;
-  --text-gray-3: #71747A;
-  --text-blue-1: #236FDB;
+  --green-1: #0F7A59;
+  --green-2: #48B28F;
 
-  --line-bg-2: #2D2F33;
+  --red-1: #C24036;
+  --red-2: #D66B63;
 
-  --search-button-bg: #236FDB;
+  --orange-1: #DB671A;
 
-  --success-bg: #1A2E28;
-  --success-color: #0F7A59;
-  --failure-bg: #24201F;
-  --failure-color: #C24036;
-  --pending-bg: #1B2133;
-  --pending-color: #236FDB;
+  --yellow-1: #E0A413;
 
-  --border-bg: #2D2F33;
-  --border-bottom-bg: #2D2F33;
+  --pink-1: #D13D8B;
 
-  --toast-bg: #556489;
-  --toast-color: #D7DAE0;
+  --gray-1: #D7DAE0;
+  --gray-2: #7E838F;
+  --gray-3: #71747A;
+  --gray-4: #484B52;
+  --gray-5: #3E4347;
+  --gray-6: #36383D;
+  --gray-7: #2D2F33;
+  --gray-8: #E6E9F0;
+  --gray-9: #9EA1A3;
+
+  --bg-1: #0D0E0F;
+  --bg-2: #18191C;
+  --bg-3: #212326;
+  --bg-4: #232429;
+  --bg-5: #1C1E21;
+  --bg-6: #51545C;
+  --bg-7: #3A3E42;
+  --bg-8: #1C1E21;
+
+  --blue-bg-1: #1B2133;
+
+  --green-bg-1: #1A2E28;
+
+  --red-bg-1: #24201F;
+
+  --orange-bg-1: #292827;
+
+  --separator-1: #2D2F33;
+  --separator-2: #242629;
 }
