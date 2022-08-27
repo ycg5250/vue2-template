@@ -56,13 +56,33 @@ input {
   outline: none;
 }
 
-.text-gray-1 {
+.text {
   font-size: 0.14rem;
   font-family: PingFangSC, PingFangSC-Medium;
   font-weight: 500;
   text-align: left;
-  color: var(--text-gray-1);
+  color: var(--gray-1);
 }
+
+// 单行文本溢出显示省略号
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-ellipsis-more {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /* 表示盒子对象的子元素的排列方式 */
+  -webkit-line-clamp: 3;
+  /* 限制文本的行数，表示文本第多少行省略 */
+  text-overflow: ellipsis;
+  /*  打点展示 */
+  overflow: hidden;
+  /*超出部分进行隐藏*/
+}
+
 
 // flex布局
 .d-flex {
