@@ -73,16 +73,15 @@ input {
 
 .text-ellipsis-more {
   display: -webkit-box;
-  -webkit-box-orient: vertical;
   /* 表示盒子对象的子元素的排列方式 */
-  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
   /* 限制文本的行数，表示文本第多少行省略 */
-  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
   /*  打点展示 */
-  overflow: hidden;
+  text-overflow: ellipsis;
   /*超出部分进行隐藏*/
+  overflow: hidden;
 }
-
 
 // flex布局
 .d-flex {
