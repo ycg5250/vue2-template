@@ -12,6 +12,7 @@ html {
 
 body {
   overflow-x: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
 button {
@@ -56,106 +57,106 @@ input {
   outline: none;
 }
 
-.text {
-  font-size: 0.14rem;
-  font-family: PingFangSC, PingFangSC-Medium;
-  font-weight: 500;
-  text-align: left;
-  color: var(--gray-1);
-}
+// .text {
+//   font-size: 0.14rem;
+//   font-family: PingFangSC, PingFangSC-Medium;
+//   font-weight: 500;
+//   text-align: left;
+//   color: var(--gray-1);
+// }
 
-// 单行文本溢出显示省略号
-.text-ellipsis {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
+// // 单行文本溢出显示省略号
+// .text-ellipsis {
+//   overflow: hidden;
+//   white-space: nowrap;
+//   text-overflow: ellipsis;
+// }
 
-.text-ellipsis-more {
-  display: -webkit-box;
-  /* 表示盒子对象的子元素的排列方式 */
-  -webkit-box-orient: vertical;
-  /* 限制文本的行数，表示文本第多少行省略 */
-  -webkit-line-clamp: 3;
-  /*  打点展示 */
-  text-overflow: ellipsis;
-  /*超出部分进行隐藏*/
-  overflow: hidden;
-}
+// .text-ellipsis-more {
+//   display: -webkit-box;
+//   /* 表示盒子对象的子元素的排列方式 */
+//   -webkit-box-orient: vertical;
+//   /* 限制文本的行数，表示文本第多少行省略 */
+//   -webkit-line-clamp: 3;
+//   /*  打点展示 */
+//   text-overflow: ellipsis;
+//   /*超出部分进行隐藏*/
+//   overflow: hidden;
+// }
 
-// flex布局
-.d-flex {
-  display: flex;
-}
+// // flex布局
+// .d-flex {
+//   display: flex;
+// }
 
-// 纵向排列
-.flex-column {
-  flex-direction: column;
-}
+// // 纵向排列
+// .flex-column {
+//   flex-direction: column;
+// }
 
-// 横线排列换行
-.flex-wrap {
-  flex-wrap: wrap;
-}
+// // 横线排列换行
+// .flex-wrap {
+//   flex-wrap: wrap;
+// }
 
-// 垂直方向对齐
-$flex-jc:(start:flex-start,
-  end:flex-end,
-  center:center,
-  between:space-between,
-  around:space-around,
-  evenly:space-evenly);
+// // 垂直方向对齐
+// $flex-jc:(start:flex-start,
+//   end:flex-end,
+//   center:center,
+//   between:space-between,
+//   around:space-around,
+//   evenly:space-evenly);
 
-// 水平方向对齐
-$flex-ai:(start:flex-start,
-  end:flex-end,
-  center:center,
-  stretch:stretch,
-);
+// // 水平方向对齐
+// $flex-ai:(start:flex-start,
+//   end:flex-end,
+//   center:center,
+//   stretch:stretch,
+// );
 
-@each $key,
-$value in $flex-jc {
-  .jc-#{$key} {
-    justify-content: $value;
-  }
-}
+// @each $key,
+// $value in $flex-jc {
+//   .jc-#{$key} {
+//     justify-content: $value;
+//   }
+// }
 
-@each $key,
-$value in $flex-jc {
-  .ai-#{$key} {
-    align-items: $value;
-  }
-}
+// @each $key,
+// $value in $flex-jc {
+//   .ai-#{$key} {
+//     align-items: $value;
+//   }
+// }
 
-.flex-1 {
-  flex: 1;
-}
+// .flex-1 {
+//   flex: 1;
+// }
 
-.flex-grow-1 {
-  flex-grow: 1;
-}
+// .flex-grow-1 {
+//   flex-grow: 1;
+// }
 
-@media screen and (min-width: 767px) {
-  html {
-    font-size: 8.2465vw;
-  }
-}
+// @media screen and (min-width: 767px) {
+//   html {
+//     font-size: 8.2465vw;
+//   }
+// }
 
-@media screen and (max-width: 767px) {
-  html {
-    font-size: 13.33vw;
-    font-size: -webkit-calc(13.33vw);
-    font-size: calc(13.33vw);
-  }
+// @media screen and (max-width: 767px) {
+//   html {
+//     font-size: 13.33vw;
+//     font-size: -webkit-calc(13.33vw);
+//     font-size: calc(13.33vw);
+//   }
 
-  .text-gray-3 {
-    font-size: 0.2rem;
+//   .text-gray-3 {
+//     font-size: 0.2rem;
 
-  }
-}
+//   }
+// }
 
-@media screen and (min-width: 1212px) {
-  html {
-    font-size: 100px;
-  }
-}
+// @media screen and (min-width: 1212px) {
+//   html {
+//     font-size: 100px;
+//   }
+// }

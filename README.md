@@ -1,6 +1,6 @@
-# trade-competition
+# vue2-template
 
-## 已配置 vue-i18n 预渲染插件 移动端适配 深色模式切换
+## 已配置 vue-i18n 深色模式切换
 
 ## Nodejs version 14.17.1
 
